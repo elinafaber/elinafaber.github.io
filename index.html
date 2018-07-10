@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta class="utf-8">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="jquery-3.3.1.min.js"></script>
+	<title>Eden</title>
+	<!-- Don't forget to add your metadata here -->
+	<link rel='stylesheet' href='css/style.css' />
+</head>
+<body>
+	<!-- Navigationsleiste -->
+	<div class="navbar navbar--extended" id="navbarscript"> 
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">Eden</a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="#scrollManagement">Management</a></li>
+						<li><a href="#scrollDesign">Design</a></li>
+                        <li><a href="#scrollTechnik">Technik</a></li>
+                    </ul>
+                    <!-- <div> class="anchor" id="anchor1</div>
+                    <div> class="anchor" id="anchor2</div>
+                    <div> class="anchor" id="anchor3</div> -->
+
+				</nav>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Erste Seite -->
+	<div class="expanded landing__section" id="edenContainer">
+		<div class="container">
+			<div class="eden__inner" id='navConverter'>
+				<div class="eden__media">
+                    <div class="imgcontainerbruecke">
+                        <div class="bruecke">
+                            <img id="glowOnHover" src="./images/bruecke.svg" title="See mit Brücke im Eden-Park" alt="Ein friedlich wirkender Flusslauf mit einer kleinen Brücke, gesäumt von drei Bäumen. Wenn die Maus sich über dem Bild befindet, erscheint eine kleine Entenfamilie auf dem Fluss und in den Bäumen glitzern keine Lichter">
+                        </div>
+                    </div>
+				</div>
+				<div class="eden__content">
+					<h1 class="eden__title">Eden</h1>
+					<h2 class="eden__text">Magische Gedenkorte</h2>
+                    <a href="pages/trailer.html" class="button trailer__button">Trailer</a>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    
+    <div class="eden__sub">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='eden__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+	</div>
+
+    <div class= "weg">
+        <img src="./images/Weg.svg" class="eden__weg" alt="">
+    </div>
+    
+	<!-- Philosophie -->
+	<div class="expanded landing__section philosophie" id="scrollPhilosophie">
+			<div class="container">
+				<div class="expanded__inner">
+                    <div class="imgcontainer">
+                        <div class="rosenbusch">
+                            <img id="glowOnHover" src="./images/Rosenbusch.svg" title="Gedenkort im Eden-Park" alt="Ein runder Busch mit Blättern und lilafarbenen Blüten, zu dessen Füßen ein paar kleine glatte Steine liegen. Wenn die Maus sich über dem Strauch befindet, glitzern Lichter in seinen Blättern und auch die Steine fangen an zu leuchten.">
+                        </div>
+                    </div>
+					<div class="expanded__content">
+						<h2 id="philosophie" class="expanded__title">Unsere Philosophie</h2>
+						<p class="expanded__text">In ganz Deutschland kämpfen viele Friedhöfe mit sinkender Nachfrage. Alternative Bestattungsformen, allen voran Friedwälder, erfreuen sich hingegen zunehmender Beliebtheit. Verschiedene soziokulturelle Trends stecken hinter diesen Entwicklungen. Religion und Tradition haben für viele Menschen an Bedeutung verloren während der Aufwand der Grabpflege in weiter verstreut lebenden Familien nicht mehr zu leisten ist.</p>
+                        <p class = "expanded__text">Aber wer sagt, dass das Angebot von Friedhöfen nicht mindestens genauso attraktiv sein kann wie das der Konkurrenten? Mit Eden haben wir ein Konzept geschaffen, mit dem traditionelle Friedhöfe den veränderten Bedürfnissen ihrer Kunden wieder gerecht werden können. Sie können die Ihnen zur Verfügung stehenden Flächen nutzen, um zeitgemäße und naturnahe Gedenkorte zu schaffen und ihr mittel- und langfristiges ökonomisches Überleben zu sichern. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+    <!-- Management Unterpunkte -->
+	<div class="management landing__section">
+        <div class="scrollcontainer" id="scrollManagement">
+            <div class="management container">
+                <div class="box__header">
+                   <h4 id="management">Management</h4>
+                </div>
+                <div class="steps__inner">
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/leanCanvas.html">
+                              <img src="./images/Lean Canvas.svg" class="step__image" alt="Ein Schema mit 9 leeren Kästchen, so wie sie auf dem Lean Canvas ausgefüllt sind, zu dem der Link führt.">
+                            </a>
+                        </div>
+                        <a href="pages/leanCanvas.html">
+                           <p>Lean Canvas</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                             <a href="pages/swot.html">
+                                <img src="./images/SWOT.svg" class="step__image" alt="Ein S für Strengths, also Stärken und ein W für Weaknesses, also Schwächen. Die Buchstaben werden durch eine Linie getrennt, die diagonal von links unten nach rechts oben verläuft und führen zur Stärken/Schwächen Analyse für das Projekt.">
+                            </a>
+                        </div>
+                        <a href="pages/swot.html">
+                           <p>SWOT Analyse</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/milestones.html">
+                              <img src="./images/milestones.svg" class="step__image" alt="Ein Zeitstrahl, von dem oben und unten Events abgehen, die lilafarbenen Ringen markiert sind. Er führt zu einer Ansicht der nächsten Schritte, die für das Projekt geplant sind.">
+                            </a>
+                        </div>
+                        <a href="pages/milestones.html">
+                           <p>Milestones</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="steps__inner">
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/Preismodell.html">
+                              <img src="./images/kosten.svg" class="step__image" alt="Ein Klemmbrett, auf dem ein Eurozeichen und einige angedeutete Text-Zeilen zu sehen sind. Hier geht es zu einer Ansicht der unterschiedlichen Eden-Marketing-Pakete.">
+                            </a>
+                        </div>
+                        <a href="pages/Preismodell.html">
+                           <p>Preismodelle</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/produktstrategie.html">
+                              <img src="./images/Produkt Strategie.svg" class="step__image" alt="Ein Lastwagen in Bewegung, der offensichtlich unterwegs ist zum nächsten Kunden, der ungeduldig auf die Einrichtung seines Eden Parks wartet. Hier geht es zur Produktstrategie.">
+                            </a>
+                        </div>
+                        <a href="pages/produktstrategie.html">
+                           <p>Produktstrategie</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/zielgruppe.html">
+                              <img src="./images/Zielgruppe.svg" class="step__image" alt="Porträt-Ansichten von einer Gruppe bestehen aus drei Menschen. Sie soll die Zielgruppe symbolisieren, die auf der verlinkten Seite beschrieben wird.">
+                            </a>
+                        </div>
+                        <a href="pages/zielgruppe.html">
+                           <p>Zielgruppe</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+		</div>
+	</div>
+    
+	<!-- Service -->
+	<div class="expanded landing__section service" id="scrollService">
+		<div class="container">
+			<div class="expanded__inner">
+                <div class="imgcontainer">
+                    <div class="haus">
+					   <img id="glowOnHover" src="./images/Haus_dunkel.svg" title="Eden Verwaltungsgebäude" alt="Ein kleines, schlichtes Gebäude mit einem quadratischen Grundriss und einem außergewöhnlichen, Dach, das an eine oben runde Zipfelmütze erinnert. Wenn die Maus sich über dem Bild befindet, wird die Tür von innen hell erleuchtet.">
+				    </div>
+                </div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">Unser Service</h2>
+					<p class="expanded__text">Das Angebot von Eden wird für jeden Kunden maßgeschneidert. Sie entscheiden, auf welcher Fläche und in welchem Umfang Sie Ihren Eden Park erschaffen wollen und wir versorgen Sie mit allem, was Sie dafür brauchen. Wir beliefern Sie mit den technischen Komponenten, setzen diese in Betrieb und schulen Ihre Mitarbeiter in der Benutzung und Betreuung. </p>
+                    <p class = "expanded__text"> Wir bieten Wartungsverträge an, die Ihnen die Instandhaltung der im Eden Park verbauten Infrastruktur abnimmt und bieten Ihnen durch die von Eden zur Verfügung gestellten Web- und App-Services die Möglichkeit, mit Ihren Kunden zu kommunizieren, deren Daten zu verwalten und Bestellungen entgegen zu nehmen. </p>
+                    <p class = "expanded__text">Ihre Kunden haben dadurch die Möglichkeit, Veranstaltungen im Vorraus zu sehen, Vorbestellungen abschließen zu können und einen direkten Ansprechpartner zu haben.</p>
+                    
+                     <div class="appButton">
+                        <a href="pages/app.html" class="button trailer__button">Zur App</a>
+                    </div>
+				</div>
+			</div>
+		</div> 
+	</div>
+    
+    <!-- Weg -->
+    <div class= "weg2">
+        <img src="./images/Weg2.svg" class="eden__weg" alt="">
+    </div>
+    
+    <!-- Design Bestandteile Teil 1 -->
+	<div class="expanded landing__section elemente">
+		<div class="container">
+            <div class = "expanded__inner">
+                <div class = "heading">
+                    <h2 class="expanded__title elemente">Die Elemente von Eden</h2>
+                    <p class="wide__text">Die einzelnen Komponenten spielen im Eden Park perfekt zusammen, um genau den Ort zu schaffen, den sich Angehörige in Zeiten von Verlust und Trauer wünschen. Der Park gibt seinen Besuchern ein Gefühl von Geborgenheit und räumt auf mit dem Grusel-Image, das Friedhöfen - meist zu Unrecht - immer noch anhaftet. Friedhöfe, egal wie traditionell oder modern, sind spirituelle Orte, an denen wir uns der Menschen erinnern, die die uns bekannte Welt verlassen haben. Eden Parks nutzen aktuelle Technologien um der Magie ein Zuhause zu geben, die bei der Begegnung über die Grenzen unserer Welt hinweg mitschwingt.</p>
+                </div>
+            </div>
+            <div class="stack__inner">
+                <div class = "stack__left">
+                    <div class="stack__image">
+                        <div class = "rosenbusch" id="rosenbusch2">
+                            <img id="glowOnHover" src="./images/Rosenbusch.svg" title="Gedenkort im Eden-Park" alt="Ein runder Busch mit Blättern und lilafarbenen Blüten, zu dessen Füßen ein paar kleine glatte Steine liegen. Wenn die Maus sich über dem Strauch befindet, glitzern Lichter in seinen Blättern und auch die Steine fangen an zu leuchten.">
+                        </div>
+                    </div>
+                    <div class="stack__content">
+                        <h3 class="expanded__title halfpage">Die Gedenkorte</h3>
+                        <p class="expanded__text halfpage">Trauer ist ein komplexer Prozess, der Zeit braucht und notwendig ist, um Verlust zu verarbeiten. Eine Zeremonie, in der man sich bewusst verabschieden kann, ist für den Trauerprozess genauso wichtig wie ein Ort des Gedenkens, der mit dem Verstorbenen verbunden ist. In Eden Parks verteilen sich diese Gedenkorte in lockerer Anordnung über die Rasenfläche des Parks. Die Angehörigen können eine Pflanze aus einer Auswahl an Optionen auswählen, die den Gedenkort markiert. Optional kann auch ein kleines Messingschild mit Name und Geburtsdatum am Fuß der Pflanze angebracht werden.</p>
+                    </div>
+                </div>
+                <div class="stack__right">
+                    <div class = "stack__image">
+                        <div class="kristall">
+                            <img id="glowOnHover" src="./images/Kristall.svg" title="Eden-Kristall" alt="Ein natürlich aussehender lilafarbener Kristall mit einer länglichen Form und glatten Kanten. Wenn die Maus sich über dem Bild befindet, wird der Kristall nach links gekippt und leuchtet auf, wenn er in seine aufrechte Position zurückkehrt.">
+                        </div>
+                    </div>
+                    <div class="stack__content">
+                        <h3 class="expanded__title halfpage">Der Kristall</h3>
+                        <p class="expanded__text halfpage">Der Besuch eines Eden Parks ist ein magisches Erlebnis und das Objekt, das für den Nutzer diese Magie verkörpert, ist ein Kristall. Diesen können enge Angehörige nach der Bestattung mitnehmen und gelegentliche Besucher leihen. Im Eden Park soll sich jeder willkommen und gut aufgehoben fühlen. Um dies zu ermöglichen, nimmt Eden seine Gäste beim Eintritt in den Park an die Hand und weist ihnen den Weg zu dem Gedenkort, den sie besuchen möchten. Das wird dadurch ermöglicht, dass der Kristall, während er sich im Park befindet, die Position des Besuchers an den Park übermittelt.</p>
+                    </div>
+                </div>
+            </div>
+        <div class= "fenster">
+            <img id="glowOnHover" src="./images/fenster_hover.png" class="eden__fenster" title="Einblick in einen Eden Park" alt="Durch einen organisch geformten Ausschnitt blickt man in einen Park. Menschen verweilen friedlich unter Bäumen, stehen vor Büschen oder an einem Fluss. Lichter glitzern in Bäumen und die Pforte eines kleinen Hauses ist warm erleuchtet.">
+        </div>
+
+        <!-- Design Bestandteile Teil 2 -->
+            <div class="stack__inner">
+                <div class="stack__left">
+                    <div class="stack__content">
+                        <h3 class="expanded__title halfpage">Gedenksteine</h3>
+                        <p class="expanded__text halfpage">Viele Menschen nutzen den Besuch eines Grabes, um mit den Menschen zu sprechen, die sie verloren haben. Auch wenn es weder wissenschaftlich noch religiös begründet ist, die Seele einige Zeit nach dem Tod noch in der Nähe des Körpers zu vermuten, so fühlen wir uns doch den Verstorbenen da am nächsten, wo wir ihre sterblichen Überreste begraben wissen. Eden gibt dem Zwiegespräch mit der Seele über die Grenzen unserer Welt hinaus durch die Gedenksteine einen Rahmen. Diese „Steine“ werden mit Gedanken graviert, die man dem Verstorbenen senden möchte und reagieren durch Leuchten darauf, dass sich ein Angehöriger dem Gedenkort nähert. Sie ermöglichen es den Angehörigen, an der Trauer der anderen Besucher desselben Gedenkorts teilzuhaben und sich so weniger allein in ihrer Situation zu fühlen.</p>
+                    </div>
+                    <div class="stack__image">
+                        <div class = "steine">
+                            <img id="glowOnHover" src="./images/Steine_dunkek.svg" title="Eden-Gedenksteine" alt="Zwei große und drei etwas kleinere Steine, die an Kiesel erinnern. Wenn die Maus sich über dem Bild befindet, werden die Steine von einem warmen Licht erfüllt.">
+                        </div>
+                    </div>
+                </div>
+                <div class ="stack__right">
+                    <div class="stack__content">
+                    <h3 class="expanded__title halfpage">Magie durch Licht</h3>
+                    <p class="expanded__text halfpage">Friedhöfen wohnte schon immer eine gewisse Magie inne. Nur ist diese traditionell eher unheimlicher Art. Das ist bei Eden Parks anders. Der Zauber dieser Orte wird primär durch viele winzige Lichter erzeugt, die überall im Park verteilt sind. Sie befinden sich sowohl in Bodennähe am Wegrand als auch in Büschen und Bäumen und schaffen eine magische Atmosphäre, während sie gleichzeitig dem Besucher den Weg leiten. Auch die am Gedenkort abgelegten Gedenksteine reagieren mit Leuchten auf die Annäherung eines Kristalls, der mit dem entsprechenden Ort asoziiert ist und zeigen dem Besucher, dass er nicht allein ist. </p>
+                </div>
+                <div class="stack__image">
+                    <div class = "baum">
+                        <img class = "imgbaum" id="glowOnHover" src="./images/Baum.svg" title="Baum im Eden-Park" alt="Ein stattlich wirkender Baum mit einem stabilen Stamm, in dem kleine Lichter zu sehen sind. Wenn sich die Maus über dem Bild befindet, erstrahlen weitere Lichter in dem Baum.">
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Design Unterpunkte -->
+    <div class="design landing__section">
+        <div class="scrollcontainer" id="scrollDesign">
+            <div class="management container">
+                <div class="box__header">
+                   <h4 id="design">Design</h4>
+                </div>
+                <div class="steps__inner">
+                    <div class="step">
+                        <div class="step__media">
+                             <a href="pages/Interaktionskonzept.html">
+                              <img src="./images/Interaktionskonzept.svg" class="step__image" alt="Drei Menschen in Porträt-Ansicht, verbunden durch Linien, die in der Mitte zusammenlaufen und die Interaktion symbolisieren.">
+                            </a>
+                        </div>
+                         <a href="pages/Interaktionskonzept.html">
+                           <p>Interaktionskonzept</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/EmpathyMap.html">
+                              <img src="./images/EmpathyMap.svg" class="step__image" alt="Ein menschlicher Kopf im Profil, um den strahlenförmig einige Linien angeordnet sind. Darum und darin ist Platz, um zu vermerken, was er mit seinen Sinnen wahrnimmt, denkt und fühlt.">
+                            </a>
+                        </div>
+                        <a href="pages/EmpathyMap.html">
+                           <p>Empathy Map</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/RolleDesNutzers.html">
+                              <img src="./images/Rolle%20des%20Nutzers.svg" class="step__image" alt="Porträt-Ansicht eines Menschen. Er steht symbolisch für einen Nutzer von Eden, dessen Rolle im Park auf der verlinkten Seite näher beleuchtet wird.">
+                            </a>
+                        </div>
+                        <a href="pages/RolleDesNutzers.html">
+                           <p>Rolle des Nutzers</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="steps__inner">
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/serviceKonzept.html">
+                                <img src="./images/Servicekonzept.svg" class="step__image" alt="Ansicht von Oberkörper und Kopf eines Menschen, der auf dem ausgestreckten Arm ein Zahnrad balanciert. Steht symbolisch für den Service von Eden, dessen Konzept hier näher erläutert wird.">
+                            </a>
+                        </div>
+                        <a href="pages/serviceKonzept.html">
+                            <p>Service Konzept</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/nutzungsstory.html">
+                                <img src="./images/Nutzungsstory.svg" class="step__image" alt="Porträt Ansicht eines Menschen, hinter dem ein Weg angedeutet ist, den er zurückgelegt hat. Hier wird eine Nutzungsstory erzählt, die zeigt wie ein Besucher einen Eden Park erlebt.">
+                            </a>
+                        </div>
+                        <a href="pages/nutzungsstory.html">
+                            <p>Nutzungsstory</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+    
+    <!-- die Technik hinter Eden -->
+	<div class="expanded landing__section">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__content">
+					<h2 class="expanded__title">Die Technik hinter Eden</h2>
+					<p class="expanded__text">Der Eindruck von Geborgenheit und Magie, der beim Besucher eines Eden Parks entsteht, wird durch das wohl durchdachte Zusammenspiel verschiedener technischer Komponenten ermöglicht. Diese Technik wird von Eden zur Verfügung gestellt und installiert. Ihre Mitarbeiter werden in der Bedienung aller Teile geschult, um Betrieb und Instandhaltung selbstständig übernehmen zu können. Falls Sie das wünschen sollten, bietet Eden Ihnen gerne auch einen auf Sie individuell zugeschnittenen Wartungsvertrag an.</p>
+				</div>
+                <div class="imgcontainer esp">
+                    <div class= "esp">
+					   <img id="switchOnHover" src="./images/ESP.svg" class = "espImage" title="Mikroprozessor wie im Gedenkort verbaut" alt="Ein kleiner Mikroprozessor mit drei Chips und seitlichen Beinchen, der Funkwellen aussendet. Wenn sich die Maus über dem Bild befindet, wird das aussenden der Funkwellen animiert.">
+				    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+       
+    <!-- Weg -->
+    <div class= "weg3">
+        <img src="./images/Weg3.svg" class="eden__weg" alt="">
+    </div>
+    
+    <!-- Technische Bestandteile - Teil 1 -->
+    <div class="expanded landing__section teile">
+		<div class="container">
+            <div class ="stack__outer">
+                <div class = "expanded__title bestandteile">
+                    <h2>Die Bestandteile des Kristalls</h2>
+                </div>        
+                <div class = "stack__inner">
+                    <div class="stack__leftThird">
+                        <h3 class="expanded__title">ESP</h3>
+                        <p class="expanded__text">Dieser Mikrokontroller bietet auf kleiner Fläche Wlan und Bluetooth Konnektivität und ist damit das Gehirn des Kristalls und versorgt ihn mit Orientierungsfähigkeit und Kommunikationsvermögen. </p>
+
+                        <h3 class="expanded__title">LEDs</h3>
+                        <p class="expanded__text">Im Kristall sind LEDs verbaut. Sie ermöglichen die Interaktion mit dem Nutzer und kommunizieren den Ladestand des Akkus sowie Ladeaktivität und die Ankunft an einem mit dem Kristall asoziierten Gedenkort.</p>
+                    </div>
+
+                    <!-- Technik Bild -->
+                    <div class="imgcontainer technikteile">
+                        <div class= "teileImage">
+                            <img class = "kristall__parts" id = "switchOnHover" src="./images/Technik im Schlüssel.svg"  title="Technische Komponenten eines Eden-Kristalls" alt="Zwischen den zwei Hälften eines Kristalls sieht man eine Induktionsspule, einen kleinen Tilt-Sensor, einen Mikroprozessor mit Funkwellen, eine LED und eine Akku-Ladestands-Anzeige">
+                        </div>
+                    </div>
+
+                    <!-- Technische Bestandteile - Teil 2 -->
+                    <div class="stack__rightThird">
+                            <h3 class="expanded__title">Lagesensor</h3>
+                            <p class="expanded__text">Der Kippsensor macht es möglich, das wiederholte Kippen des Kristalls durch den Nutzer zu erkennen, das die Anzeige des Akku-Ladezustands auslöst.</p>
+
+                            <h3 class="expanded__title">Drahtloses Laden</h3>
+                            <p class="expanded__text">Im Kristall ist ein Lithium-Ionen-Akku verbaut, der über die mitgelieferte Ladeschale drahtlos geladen werden kann. Die Akkulaufzeit beträgt 12 Stunden im Park beziehungsweise ca. 14 Tage außerhalb des Parks, wo der Kristall sich im Standby Zustand befindet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <!-- Technik Unterpunkte -->
+    <div class="technik landing__section">
+        <div class="scrollcontainer" id="scrollTechnik">
+            <div class="technik container">
+                <div class="box__header">
+                   <h4 id="technik">Technik</h4>
+                </div>
+                <div class="steps__inner">
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/datenschutz.html">
+                                <img src="./images/Datenschutz.svg" class="step__image" alt="Ein verschlossenes Bügelschloss, umrahmt von einem plakettenförmigen Umriss. Hier geht es zum Datenschutzkonzept von Eden.">
+                            </a>
+                        </div>
+                        <a href="pages/datenschutz.html">
+                            <p>Datenschutz</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/sensorikPark.html">
+                                <img src="./images/Sesnorik.svg" class="step__image" alt="Ein angedeutetes Stück Wand, auf dem sich ein Sensor befindet. Dieser empfängt Wellen. Hier geht es zur Beschreibung der bei Eden verbauten Sensorik.">
+                            </a>
+                        </div>
+                        <a href="pages/sensorikShowroom.html">
+                            <p>Sensorik</p>
+                        </a>
+                    </div>
+                    <div class="step">
+                        <div class="step__media">
+                            <a href="pages/showroom.html">
+                                <img src="./images/Showroom.svg" class="step__image" alt="Drei Menschen in Porträt-Ansicht, die sich vor einer Leinwand befinden und ihren Blick darauf gerichtet haben. Hier geht es zur Beschreibung des Eden-Showrooms.">
+                            </a>
+                        </div>
+                        <a href="pages/showroom.html">
+                            <p>Showroom</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+    
+    <!-- Das Team von Eden -->
+        <div class="expanded landing__section team">
+        <div class="container">
+            <div class = "headingCentered">
+                <h2>Das Team von Eden</h2>
+            </div>
+            <div class="team__outer">
+                <div class="team__inner">
+                    <div class = "team__media">
+                        <img src="./images/elina.svg" class="team__image" title="Elina Faber" alt="Porträt-Ansicht einer jungen Frau mit braunen Haaren, die sie in einem Dutt trägt.">
+                    </div>
+                    <div class = "team__heading">
+                        <h3>Elina Faber</h3>
+                    </div>
+                    <div class = "team__content">
+                        <p class="team__text">Elina ist Eden’s Web- und App-Developer. Sie hat einen Abschluss als Interactive Media Designer und vereint fundiertes Design-Fachwissen mit umfangreichen Kenntnissen in der technischen Entwicklung. Sie unterstützt das moderne Auftreten von Eden und verantwortet die Umsetzung in den Bereichen App- und Webentwicklung, Webdesign, Responsive Design und der Programmierung dynamischer Webseiten mit JavaScript. Außerdem erstellt sie alle Animationen, die im Web und im Marketing verwendet werden.</p>
+                    </div>
+                </div>
+                <div class="team__inner">
+                    <div class = "team__media">
+                        <img src="./images/elena.svg" class="team__image" title="Elena Feuerstein" alt="Porträt-Ansicht einer jungen Frau mit langen braunen Haaren">
+                    </div>
+                    <div class = "team__heading">
+                        <h3>Elena Feuerstein</h3>
+                    </div>
+                    <div class = "team__content">
+                        <p class="team__text">Elena Feuerstein ist der Lead Designer im Eden Team. Auch sie hat einen Abschluss als Interactive Media Designer. Ihr großes Talent besteht darin, nutzerzentriert zu gestalten, ohne die Limitationen der technischen Umsetzung außer Acht zu lassen.  In ihren Aufgabenbereich fallen User Experience Design und User Testing sowie die Konzeption und Gestaltung der Eden Medien. Dazu zählt das Entwerfen von Anzeigen, Werbespots, Internetseiten oder kompletten virtuellen Szenarien. Und auch für Sie gestaltet Sie gerne den Web-Auftritt Ihres Eden-Parks.</p>
+                    </div>
+                </div>
+                <div class="team__inner">
+                    <div class = "team__media">
+                        <img src="./images/lauritz.svg" class="team__image" title="Lauritz Kramberger" alt="Porträt-Ansicht eines jungen Mannes mit blonden Haaren, die dynamisch frisiert sind.">
+                    </div>
+                    <div class = "team__heading">
+                        <h3>Lauritz Kramberger</h3>
+                    </div>
+                    <div class = "team__content">
+                        <p class="team__text">Lauritz ist das Herz der technischen Umsetzung von Eden. Er verfügt über umfassendes Know-How im Hardware-Bereich und verantwortet das Prototyping für die Eden-Komponenten. Außerdem betreut er unseren Showroom und führt dort Interessenten in die Technik hinter Eden ein. Da er die in- und auswendig kennt, ist er auch bei technischen Problemen für unsere Kunden da. Auf Kundenwunsch erstellt er technische Skizzen, plant die Konstruktion, und macht das gesamte System hinter Eden für den Betrieb bereit. </p>
+                    </div>
+                </div>
+                <div class="team__inner">
+                    <div class = "team__media">
+                        <img src="./images/anne.svg" class="team__image" title="Anne Thomas" alt="Porträt-Ansicht einer jungen Frau mit blonden Haaren, die sie in einem Dutt trägt.">
+                    </div>
+                    <div class = "team__heading">
+                        <h3>Anne Thomas</h3>
+                    </div>
+                    <div class = "team__content">
+                        <p class="team__text">Im Vertrieb ist Anne für Eden unterwegs. Mit ihren kommunikativen Kompetenzen und Freude im Umgang mit Menschen kümmert sie sich um die Anwerbung von Kunden sowie die Pflege bestehender Kundenbeziehungen. Dazu gehört auch, gemeinsam mit den Kunden Vorschläge zur Produktentwicklung auszuarbeiten. Die diplomierte Betriebswirtin verfügt über langjährige Erfahrung in der Finanzbranche und ist neben dem Vertrieb auch für unsere Investorenkontakte und die finanzielle Planung zuständig. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <!-- Weg -->
+    <div class= "weg4">
+        <img src="./images/Weg4.svg" class="eden__weg" alt="">
+    </div>
+    
+    <!-- Geschichte -->
+	<div class="expanded landing__section geschichte">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__content">
+					<h2 class="expanded__title">Die Geschichte von Eden</h2>
+					<p class="expanded__text">Das heutige Eden Team hat gemeinsam bereits einiges erlebt. Alle vier Gründer von Eden verfolgten von Anfang an mit großer Leidenschaft das Ziel, die Tabuisierung des Themas Tod zu bekämpfen und Vorurteile und Berührungsängste in der Gesellschaft abzubauen. Allerdings waren einige Iterationen mit verschiedenen Konzepten nötig, um herauszufinden, auf welchem Weg das gemeinsame Ziel erreicht kann und wie dabei Internet der Dinge ins Spiel kommen soll. Eine Übersicht der Konzepte, die sich nicht durchsetzen konnten, finden Sie auf dem Friedhof der gescheiterten Ideen.</p>
+				</div>
+                <div class="expanded__media">
+                    <div class="grabstein">
+                        <img id="glowOnHoverGrab" src="./images/Grabstein.svg" class="grabsteinImg" title="Grabstein" alt="Bild eines Grabsteins, der leicht verwittert aussieht. Seine Inschrift ist nicht lesbar. Wenn die Maus sich über den Grabstein bewegt, zerbricht er in der Mitte in zwei Hälften.">
+                    </div>  
+                    <div class="button_Friedhof">
+                        <a href="pages/grabsteine.html" class="button trailer__button">Zum Friedhof</a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->        
+     <div class="footer footer--dark" id="scrollToEnd">   
+        <div class="container">
+            <div class="footer__inner">
+                <a href="index.html" class="footer__textLogo">Eden</a>
+                <div class="footer__data">
+                    <div class="footer__data__item">
+                        <div class="footer__row">
+                            Theme: <a href="https://evie.undraw.co/" target="_blank" class="footer__link">Evie</a> by <a href="https://undraw.co/" target="_blank" class="footer__link"> Undraw </a>
+                        </div>
+                    </div>
+                    <div class="footer__data__item">
+                        <div class="footer__row">
+                            <a href="pages/termine.html">
+                            Termin vereinbaren
+                            </a>
+                        </div>
+                    </div>
+                   <!-- <div class="footer__data__item">
+                        <div class="footer__row">
+                            <a href="pages/termine2.html">
+                            Messetermine
+                            </a>
+                        </div>
+                    </div>-->
+                 </div>
+              </div>
+           </div>
+        </div>
+    
+<script src='js/app.js'></script>
+
+<script>
+
+if ( $.browser.webkit) {
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbarscript").style.top = "0";
+      } else {
+        document.getElementById("navbarscript").style.top = "-100px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+}
+    </script>
+
+</body>
+</html>
